@@ -4,7 +4,7 @@ pipeline {
         stage ("scm ")
         {
             steps{
-                git credentialsId: 'new', url: 'https://gitlab.cloudifyops.com/clops-training/java-maven-app.git'
+                git credentialsId: 'new', url: 'https://gitlab.cloudifyops.com/Adarshashok/java-maven-app.git'
             }
         }
     }
