@@ -69,7 +69,7 @@ pipeline {
                         artifacts: [
                             [artifactId: 'cicd-practice' ,
                             classifier: '',
-                            file: 'target/*.war',
+                            file: 'target/*.jar',
                             type: 'war']
                         ]
                     )
